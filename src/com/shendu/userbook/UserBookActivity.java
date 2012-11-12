@@ -1,10 +1,10 @@
-package com.shendu.quickstart;
+package com.shendu.userbook;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
 
-public class QuickStartActivity extends Activity {
+public class UserBookActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

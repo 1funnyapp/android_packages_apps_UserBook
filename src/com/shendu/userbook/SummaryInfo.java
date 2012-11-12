@@ -1,4 +1,4 @@
-package com.shendu.quickstart;
+package com.shendu.userbook;
 
 import java.util.ArrayList;
 import java.util.List;

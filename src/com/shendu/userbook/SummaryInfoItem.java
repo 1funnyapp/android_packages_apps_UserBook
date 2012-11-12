@@ -1,4 +1,4 @@
-package com.shendu.quickstart;
+package com.shendu.userbook;
 
 public class SummaryInfoItem {
 	public String mTitle;

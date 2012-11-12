@@ -8,7 +8,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_STATIC_JAVA_LIBRARIES := android-support-v13 \
     android-support-v4 \
     
-LOCAL_PACKAGE_NAME := QuickStart
+LOCAL_PACKAGE_NAME := UserBook
 LOCAL_CERTIFICATE := platform
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
