@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string-array name="t9_sort_entries"
+  <string-array name="function_array"
     translatable="false">
-    <item>@string/t9_sort_name</item>
-    <item>@string/t9_sort_number</item>
+    <item></item>
   </string-array>
 
 </resources>
