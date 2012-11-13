@@ -4,6 +4,7 @@ import com.shendu.userbook.adapter.MobileFuntionAdapter;
 import com.shendu.userbook.json.CreateJsonUtill;
 import com.shendu.userbook.json.JsonUtill;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -40,9 +41,9 @@ public class UserBookActivity extends Activity implements OnItemClickListener {
 	public void onItemClick(AdapterView<?> arg0, View view, int pos, long id) {
 		// TODO Auto-generated method stub
 		Intent intent = new Intent(UserBookActivity.this, SummaryActivity.class);
-		Log.i("mylog", "++++++"+mFuncAdapter.getItemId(pos));
-		intent.putExtra("summary_id", (int)mFuncAdapter.getItemId(pos));
+		Log.i("mylog", "++++++" + mFuncAdapter.getItemId(pos));
+		intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+		intent.putExtra("summary_id", (int) mFuncAdapter.getItemId(pos));
 		startActivity(intent);
 	}
-
 }
