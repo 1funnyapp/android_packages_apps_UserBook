@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name= "function1">通讯录</string>
+    <string name= "function2">OTA</string>
+    <string name= "function3">桌面</string>
+    <string name= "function4">天气</string>
+    <string name= "function5">拨号</string>
+    <string name= "function6">主题</string>
+    <string name= "function7">权限管理</string>
+    
+    <string name= "summary11">通讯录1</string>
+    <string name= "summary12">通讯录2</string>
+    <string name= "summary13">通讯录3</string>
+    <string name= "summary14">通讯录4</string>
+    <string name= "summary15">通讯录5</string>
+    
+    <string name= "summary21">OTA1</string>
+    <string name= "summary22">OTA2</string>
+    <string name= "summary23">OTA3</string>
+    <string name= "summary24">OTA4</string>
+    <string name= "summary25">OTA5</string>
+    
+    <string name= "summary31">桌面1</string>
+    <string name= "summary32">桌面2</string>
+    <string name= "summary33">桌面3</string>
+    <string name= "summary34">桌面4</string>
+    <string name= "summary35">桌面5</string>
+    
+    <string name= "summary41">天气1</string>
+    <string name= "summary42">天气2</string>
+    <string name= "summary43">天气3</string>
+    <string name= "summary44">天气4</string>
+    <string name= "summary45">天气5</string>
+    
+    <string name= "summary51">拨号1</string>
+    <string name= "summary52">拨号2</string>
+    <string name= "summary53">拨号3</string>
+    <string name= "summary54">拨号4</string>
+    <string name= "summary55">拨号5</string>
+    
+    <string name= "summary61">主题1</string>
+    <string name= "summary62">主题2</string>
+    <string name= "summary63">主题3</string>
+    <string name= "summary64">主题4</string>
+    <string name= "summary65">主题5</string>
+    
+    <string name= "summary71">权限管理1</string>
+    <string name= "summary72">权限管理2</string>
+    <string name= "summary73">权限管理3</string>
+    <string name= "summary74">权限管理4</string>
+    <string name= "summary75">权限管理5</string>
+    
+    
+    
+    
+</resources>

@@ -1,9 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
-  <string-array name="function_array"
-    translatable="false">
-    <item></item>
-  </string-array>
+
+    <string-array name="function_array" translatable="false">
+        <item>@string/function1</item>
+        <item>@string/function2</item>
+        <item>@string/function3</item>
+        <item>@string/function4</item>
+        <item>@string/function5</item>
+        <item>@string/function6</item>
+        <item>@string/function7</item>
+    </string-array>
+
+    <integer-array name="function_id" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <string-array name="summary_array1" translatable="false">
+        <item>@string/summary11</item>
+        <item>@string/summary12</item>
+        <item>@string/summary13</item>
+        <item>@string/summary14</item>
+        <item>@string/summary15</item>
+    </string-array>
+    
+    <string-array name="summary_array2" translatable="false">
+        <item>@string/summary21</item>
+        <item>@string/summary22</item>
+        <item>@string/summary23</item>
+        <item>@string/summary24</item>
+        <item>@string/summary25</item>
+    </string-array>
+    
+    <string-array name="summary_array3" translatable="false">
+        <item>@string/summary31</item>
+        <item>@string/summary32</item>
+        <item>@string/summary33</item>
+        <item>@string/summary34</item>
+        <item>@string/summary35</item>
+    </string-array>
+    
+    <string-array name="summary_array4" translatable="false">
+        <item>@string/summary41</item>
+        <item>@string/summary42</item>
+        <item>@string/summary43</item>
+        <item>@string/summary44</item>
+        <item>@string/summary45</item>
+    </string-array>
+    
+    <string-array name="summary_array5" translatable="false">
+        <item>@string/summary51</item>
+        <item>@string/summary52</item>
+        <item>@string/summary53</item>
+        <item>@string/summary54</item>
+        <item>@string/summary55</item>
+    </string-array>
+    
+    <string-array name="summary_array6" translatable="false">
+        <item>@string/summary61</item>
+        <item>@string/summary62</item>
+        <item>@string/summary63</item>
+        <item>@string/summary64</item>
+        <item>@string/summary65</item>
+    </string-array>
+    
+    <string-array name="summary_array7" translatable="false">
+        <item>@string/summary71</item>
+        <item>@string/summary72</item>
+        <item>@string/summary73</item>
+        <item>@string/summary74</item>
+        <item>@string/summary75</item>
+    </string-array>
 
 </resources>
