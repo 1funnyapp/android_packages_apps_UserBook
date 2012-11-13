@@ -5,8 +5,9 @@ import java.util.List;
 
 // data class , content about summary
 public class SummaryInfo {
-//	public List<SummaryInfoItem> mSummaryList = new ArrayList<SummaryInfoItem>();
-//	int mFlags; //unknown
-	int id ;
-	String name;
+
+	public String contents1;
+	public String contents2;
+	public String contents3;
+	public int imgId;
 }
