@@ -39,9 +39,7 @@ public class UserBookActivity extends Activity implements OnItemClickListener {
 
 	@Override
 	public void onItemClick(AdapterView<?> arg0, View view, int pos, long id) {
-		// TODO Auto-generated method stub
 		Intent intent = new Intent(UserBookActivity.this, SummaryActivity.class);
-		Log.i("mylog", "++++++" + mFuncAdapter.getItemId(pos));
 		intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 		intent.putExtra("summary_id", (int) mFuncAdapter.getItemId(pos));
 		startActivity(intent);

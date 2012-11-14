@@ -9,5 +9,5 @@ public class SummaryInfo {
 	public String contents1;
 	public String contents2;
 	public String contents3;
-	public int imgId;
+	public String imgName;
 }

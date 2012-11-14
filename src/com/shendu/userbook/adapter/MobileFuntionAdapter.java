@@ -3,10 +3,12 @@ package com.shendu.userbook.adapter;
 import java.util.List;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -44,21 +46,37 @@ public class MobileFuntionAdapter extends BaseAdapter {
 					R.layout.funciton_info, null);
 			viewHold.funcName = (TextView) convertView
 					.findViewById(R.id.func_name);
+			viewHold.appIcon = (ImageView)convertView
+					.findViewById(R.id.app_icon);
 			convertView.setTag(viewHold);
 		} else {
 			viewHold = (ViewHold) convertView.getTag();
 		}
 		if (position >= mFunctionInfos.size()) {
 			viewHold.funcName.setVisibility(View.GONE);
+			viewHold.appIcon.setVisibility(View.GONE);
 		} else {
 			String funcName = mFunctionInfos.get(position).name;
 			viewHold.funcName.setVisibility(View.VISIBLE);
 			viewHold.funcName.setText(funcName);
+			viewHold.appIcon.setVisibility(View.VISIBLE);
+			
+			String iconName = mFunctionInfos.get(position).iconName;
+			int icon = mContext.getResources().getIdentifier(
+					"com.shendu.userbook:drawable/" + iconName, null, null);
+			viewHold.appIcon.setImageResource(icon);
+			
+			if (position%3!=2){
+				convertView.setBackgroundResource(R.drawable.line_1);
+			}else{
+				convertView.setBackgroundResource(R.drawable.line_2);
+			}
 		}
 		return convertView;
 	}
 
 	class ViewHold {
 		TextView funcName;
+		ImageView appIcon;
 	}
 }

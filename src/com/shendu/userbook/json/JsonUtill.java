@@ -19,7 +19,7 @@ public class JsonUtill {
 				  JSONObject item = jsonArray.getJSONObject(i);
 				  funtionInfo.id = item.getInt("id");
 				  funtionInfo.name = item.getString("name");
-				  funtionInfo.iconId = item.getInt("iconId");
+				  funtionInfo.iconName = item.getString("iconName");
 				  info.add(funtionInfo);
 			 }
 		} catch (JSONException e) {
@@ -40,7 +40,7 @@ public class JsonUtill {
 				  summaryInfo.contents1 = item.getString("contents1");
 				  summaryInfo.contents2 = item.getString("contents2");
 				  summaryInfo.contents3 = item.getString("contents3");
-				  summaryInfo.imgId = item.getInt("imgId");
+				  summaryInfo.imgName = item.getString("imgName");
 				  info.add(summaryInfo);
 			 }
 		} catch (JSONException e) {
