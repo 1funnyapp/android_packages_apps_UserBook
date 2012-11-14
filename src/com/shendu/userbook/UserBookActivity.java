@@ -26,7 +26,7 @@ public class UserBookActivity extends Activity implements OnItemClickListener {
 		GridView gridview = (GridView) findViewById(R.id.user_book_gridview);
 		CreateJsonUtill cju = new CreateJsonUtill(getApplicationContext());
 		mFuncAdapter = new MobileFuntionAdapter(getApplicationContext(),
-				JsonUtill.getFuntionInfo(cju.getFunctionName()));
+				JsonUtill.getFuntionInfo(cju.getFunctionInfo()));
 		gridview.setAdapter(mFuncAdapter);
 		gridview.setOnItemClickListener(this);
 	}

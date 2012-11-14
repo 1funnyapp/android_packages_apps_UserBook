@@ -14,18 +14,18 @@
         <item>@string/function10</item>
     </string-array>
     
-    <integer-array name="function_icons" translatable="false">
-        <item>@drawable/ic_launcher</item>
-        <item>@drawable/ic_launcher</item>
-        <item>@drawable/ic_launcher</item>
-        <item>@drawable/ic_launcher</item>
-        <item>@drawable/ic_launcher</item>
-        <item>@drawable/ic_launcher</item>
-        <item>@drawable/ic_launcher</item>
-        <item>@drawable/ic_launcher</item>
-        <item>@drawable/ic_launcher</item>
-        <item>@drawable/ic_launcher</item>
-    </integer-array>
+    <string-array name="function_icons" translatable="false">
+        <item>ic_launcher</item>
+        <item>ic_launcher</item>
+        <item>ic_launcher</item>
+        <item>ic_launcher</item>
+        <item>ic_launcher</item>
+        <item>ic_launcher</item>
+        <item>ic_launcher</item>
+        <item>ic_launcher</item>
+        <item>ic_launcher</item>
+        <item>ic_launcher</item>
+    </string-array>
 
     <integer-array name="function_id" translatable="false">
         <item>0</item>
@@ -105,72 +105,72 @@
         <item>@string/summary102</item>
     </string-array>
     
-    <integer-array name="summary_img1" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-        <item>@drawable/img3</item>
-        <item>@drawable/img4</item>
-        <item>@drawable/img5</item>
-        <item>@drawable/img6</item>
-    </integer-array>
+    <string-array name="summary_img1" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+        <item>img3</item>
+        <item>img4</item>
+        <item>img5</item>
+        <item>img6</item>
+    </string-array>
     
-    <integer-array name="summary_img2" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-        <item>@drawable/img3</item>
-    </integer-array>
+    <string-array name="summary_img2" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+        <item>img3</item>
+    </string-array>
     
-    <integer-array name="summary_img3" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-        <item>@drawable/img3</item>
-        <item>@drawable/img4</item>
-    </integer-array>
+    <string-array name="summary_img3" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+        <item>img3</item>
+        <item>img4</item>
+    </string-array>
     
-    <integer-array name="summary_img4" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-        <item>@drawable/img3</item>
-    </integer-array>
+    <string-array name="summary_img4" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+        <item>img3</item>
+    </string-array>
     
-    <integer-array name="summary_img5" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-        <item>@drawable/img3</item>
-        <item>@drawable/img4</item>
-        <item>@drawable/img5</item>
-        <item>@drawable/img6</item>
-    </integer-array>
+    <string-array name="summary_img5" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+        <item>img3</item>
+        <item>img4</item>
+        <item>img5</item>
+        <item>img6</item>
+    </string-array>
     
-    <integer-array name="summary_img6" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-        <item>@drawable/img3</item>
-    </integer-array>
+    <string-array name="summary_img6" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+        <item>img3</item>
+    </string-array>
     
-    <integer-array name="summary_img7" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-    </integer-array>
+    <string-array name="summary_img7" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+    </string-array>
     
-    <integer-array name="summary_img8" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-        <item>@drawable/img3</item>
-        <item>@drawable/img4</item>
-    </integer-array>
+    <string-array name="summary_img8" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+        <item>img3</item>
+        <item>img4</item>
+    </string-array>
     
        
-    <integer-array name="summary_img9" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-    </integer-array>
+    <string-array name="summary_img9" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+    </string-array>
        
           
-    <integer-array name="summary_img10" translatable="false">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-    </integer-array>
+    <string-array name="summary_img10" translatable="false">
+        <item>img1</item>
+        <item>img2</item>
+    </string-array>
           
 
 

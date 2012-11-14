@@ -17,8 +17,7 @@
         android:id="@+id/summary_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/ic_launcher" />
+        android:layout_alignParentTop="true"/>
 
     <TextView
         android:id="@+id/content_one"
