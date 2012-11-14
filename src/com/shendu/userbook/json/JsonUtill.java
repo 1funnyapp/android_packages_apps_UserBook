@@ -19,6 +19,7 @@ public class JsonUtill {
 				  JSONObject item = jsonArray.getJSONObject(i);
 				  funtionInfo.id = item.getInt("id");
 				  funtionInfo.name = item.getString("name");
+				  funtionInfo.iconId = item.getInt("iconId");
 				  info.add(funtionInfo);
 			 }
 		} catch (JSONException e) {

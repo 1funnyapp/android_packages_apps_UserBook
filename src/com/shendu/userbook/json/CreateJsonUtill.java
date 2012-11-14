@@ -10,7 +10,8 @@ import android.content.Context;
 
 public class CreateJsonUtill {
 
-	private String[] functionName;
+	private String[] mFunctionName;
+	private int [] mFunctionIcons;
 	private int[] functionId;
 	private Context mContext;
 	
@@ -21,18 +22,20 @@ public class CreateJsonUtill {
 	public CreateJsonUtill(Context context) {
 
 		this.mContext = context;
-		functionName = context.getResources().getStringArray(
-				R.array.function_array);
+		
 		functionId = context.getResources().getIntArray(R.array.function_id);
 		createData();
 		peopleJSON = new JSONArray();
 		summaryJSON = new JSONArray();
 	}
 
-	public String getFunctionName() {
-
-		for (int index = 0; index < functionName.length; index++) {
-			setJsonArray(functionName[index], functionId[index]);
+	public String getFunctionInfo() {
+		mFunctionName = mContext.getResources().getStringArray(
+				R.array.function_array);
+		mFunctionIcons = mContext.getResources().getIntArray(
+				R.array.function_icons);
+		for (int index = 0; index < mFunctionName.length; index++) {
+			setJsonArray(mFunctionName[index], functionId[index], mFunctionIcons[index]);
 		}
 
 		return peopleJSON.toString();
@@ -40,10 +43,10 @@ public class CreateJsonUtill {
 	}
 	
 	public String getSummaryInfo(int id){
-		String [] data1 = summaryContent1.get(id);
-		String [] data2 = summaryContent1.get(id);
-		String [] data3 = summaryContent1.get(id);
-		int[] img = summaryImgId.get(id);
+		String [] data1 = mSummaryContent1.get(id);
+		String [] data2 = mSummaryContent1.get(id);
+		String [] data3 = mSummaryContent1.get(id);
+		int[] img = mSummaryImgId.get(id);
 		for (int index = 0; index < data1.length; index++) {
 			setSummaryArray(data1[index], data2[index] , data3 [index] , img[index]);
 		}
@@ -52,13 +55,14 @@ public class CreateJsonUtill {
 	}
 
 
-	private void setJsonArray(String name, int id) {
+	private void setJsonArray(String name, int id , int iconId) {
 		JSONObject jsonPeopleNumbers = new JSONObject();
 
 		try {
 
 			jsonPeopleNumbers.put("name", name);
 			jsonPeopleNumbers.put("id", id);
+			jsonPeopleNumbers.put("iconId", iconId);
 
 		} catch (JSONException e) {
 			e.printStackTrace();
@@ -83,45 +87,56 @@ public class CreateJsonUtill {
 	
 
 	
-	private ArrayList<String []> summaryContent1  = new ArrayList<String[]>(); 
-	private ArrayList<String []> summaryContent2  = new ArrayList<String[]>();
-	private ArrayList<String []> summaryContent3  = new ArrayList<String[]>();
-	private ArrayList<int []> summaryImgId  = new ArrayList<int []>();
-
-
+	private ArrayList<String []> mSummaryContent1  = new ArrayList<String[]>(); 
+	private ArrayList<String []> mSummaryContent2  = new ArrayList<String[]>();
+	private ArrayList<String []> mSummaryContent3  = new ArrayList<String[]>();
+	private ArrayList<int []> mSummaryImgId  = new ArrayList<int []>();
+	
 	private void createData(){
 
-		summaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array1));
-		summaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array2));
-		summaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array3));
-		summaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array4));
-		summaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array5));
-		summaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array6));
-		summaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array7));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array1));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array2));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array3));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array4));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array5));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array6));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array7));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array8));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array9));
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array10));
 		
-		summaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array1));
-		summaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array2));
-		summaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array3));
-		summaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array4));
-		summaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array5));
-		summaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array6));
-		summaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array7));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array1));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array2));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array3));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array4));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array5));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array6));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array7));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array8));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array9));
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array10));
 		
-		summaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array1));
-		summaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array2));
-		summaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array3));
-		summaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array4));
-		summaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array5));
-		summaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array6));
-		summaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array7));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array1));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array2));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array3));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array4));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array5));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array6));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array7));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array8));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array9));
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array10));
 		
-		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img1));
-		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img2));
-		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img3));
-		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img4));
-		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img5));
-		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img6));
-		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img7));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img1));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img2));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img3));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img4));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img5));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img6));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img7));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img8));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img9));
+		mSummaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img10));
 
 
 	}	

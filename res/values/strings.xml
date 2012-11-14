@@ -6,89 +6,70 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_user_book">UserBookActivity</string>
     
-        <string name= "function1">通讯录</string>
-    <string name= "function2">OTA</string>
-    <string name= "function3">桌面</string>
-    <string name= "function4">天气</string>
-    <string name= "function5">拨号</string>
-    <string name= "function6">主题</string>
-    <string name= "function7">权限管理</string>
+    <string name= "function1">拨号</string>
+    <string name= "function2">创新手势</string>
+    <string name= "function3">短信</string>
+    <string name= "function4">联系人</string>
+    <string name= "function5">通知栏</string>
+    <string name= "function6">授权管理</string>
+    <string name= "function7">OTA</string>
+    <string name= "function8">快捷上网</string>
+    <string name= "function9">深度主题</string>
+    <string name= "function10">任务管理器</string>
     
-    <string name= "summary11">通讯录1</string>
-    <string name= "summary12">通讯录2</string>
-    <string name= "summary13">通讯录3</string>
-    <string name= "summary14">通讯录4</string>
-    <string name= "summary15">通讯录5</string>
-    <string name= "summary16">通讯录6</string>
-    <string name= "summary17">通讯录7</string>
-    <string name= "summary18">通讯录8</string>
-    <string name= "summary19">通讯录9</string>
-    <string name= "summary110">通讯录10</string>
     
-    <string name= "summary21">OTA1</string>
-    <string name= "summary22">OTA2</string>
-    <string name= "summary23">OTA3</string>
-    <string name= "summary24">OTA4</string>
-    <string name= "summary25">OTA5</string>
-    <string name= "summary26">OTA6</string>
-    <string name= "summary27">OTA7</string>
-    <string name= "summary28">OTA8</string>
-    <string name= "summary29">OTA9</string>
-    <string name= "summary210">OTA10</string>
+    <string name= "summary11">拨打电话时，使用T9拼音缩写或号码快速找到你的联系人</string>
+    <string name= "summary12">输入号码后，可以立即看到对方号码的归属地</string>
+    <string name= "summary13">更方便快捷的新建联系人或添加到“联系人”</string>
+    <string name= "summary14">点击通讯录图标后迅速跳转到通讯录联系人界面</string>
+    <string name= "summary15">通话中可以点击键盘图标显示数字键盘</string>
+    <string name= "summary16">通话记录的列表里支持长按操作，可以选择删除通话记录或者发送短信</string>
+
     
-    <string name= "summary31">桌面1</string>
-    <string name= "summary32">桌面2</string>
-    <string name= "summary33">桌面3</string>
-    <string name= "summary34">桌面4</string>
-    <string name= "summary35">桌面5</string>
-    <string name= "summary36">桌面6</string>
-    <string name= "summary37">桌面7</string>
-    <string name= "summary38">桌面8</string>
-    <string name= "summary39">桌面9</string>
-    <string name= "summary310">桌面10</string>
+    <string name= "summary21">手指在桌面上由上向下滑动可直接打开通知栏，无需下拉状态栏</string>
+    <string name= "summary22">通知栏中由下向上滑动手势可直接关闭通知栏</string>
+    <string name= "summary23">手指在桌面上由下向上滑动可直接进入桌面编辑模式</string>
     
-    <string name= "summary41">天气1</string>
-    <string name= "summary42">天气2</string>
-    <string name= "summary43">天气3</string>
-    <string name= "summary44">天气4</string>
-    <string name= "summary45">天气5</string>
-    <string name= "summary46">天气6</string>
-    <string name= "summary47">天气7</string>
-    <string name= "summary48">天气8</string>
-    <string name= "summary49">天气9</string>
-    <string name= "summary410">天气10</string>
     
-    <string name= "summary51">拨号1</string>
-    <string name= "summary52">拨号2</string>
-    <string name= "summary53">拨号3</string>
-    <string name= "summary54">拨号4</string>
-    <string name= "summary55">拨号5</string>
-    <string name= "summary56">拨号6</string>
-    <string name= "summary57">拨号7</string>
-    <string name= "summary58">拨号8</string>
-    <string name= "summary59">拨号9</string>
-    <string name= "summary510">拨号10</string>
+    <string name= "summary31">新建短信时，支持显示最常用的联系人和最近联系人</string>
+    <string name= "summary32">收信人输入框可以通过号码和联系人名字拼音搜索人名并支持批量增加联系人。</string>
+    <string name= "summary33">短信输入可以设置键盘的回车为直接发送键，短信达人的福音。</string>
+    <string name= "summary34">更强大的短信设置功能、应有尽有。</string>
     
-    <string name= "summary61">主题1</string>
-    <string name= "summary62">主题2</string>
-    <string name= "summary63">主题3</string>
-    <string name= "summary64">主题4</string>
-    <string name= "summary65">主题5</string>
-    <string name= "summary66">主题6</string>
-    <string name= "summary67">主题7</string>
-    <string name= "summary68">主题8</string>
-    <string name= "summary69">主题9</string>
-    <string name= "summary610">主题10</string>
     
-    <string name= "summary71">权限管理1</string>
-    <string name= "summary72">权限管理2</string>
-    <string name= "summary73">权限管理3</string>
-    <string name= "summary74">权限管理4</string>
-    <string name= "summary75">权限管理5</string>
-    <string name= "summary76">权限管理6</string>
-    <string name= "summary77">权限管理7</string>
-    <string name= "summary78">权限管理8</string>
-    <string name= "summary79">权限管理9</string>
-    <string name= "summary710">权限管理10</string>
+    <string name= "summary41">未设置头像的好友增加默认字母头像，更加直观。</string>
+    <string name= "summary42">快速找到你的好友可以点击收藏图标哦。</string>
+    <string name= "summary43">联系人视图列表支持长按操作，可快捷编辑、删除联系或分享给其他好友</string>
+
+    
+    
+    <string name= "summary51">通知栏支持左右滑动切换，第一屏为消息通知区和快捷开关区，第二屏为所有开关区</string>
+    <string name= "summary52">支持快速切换WIFI</string>
+    <string name= "summary53">单条消息向左右滑动可以进行删除操作</string>
+    <string name= "summary54">点击通知区右上角清除按钮可以一键清除通知</string>
+    <string name= "summary55">快捷开关按钮长按可以进入到相应的设置界面</string>
+    <string name= "summary56">在更多快捷开关区可以对开关的按钮进行排序</string>
+
+    
+    <string name= "summary61">授权管理可以对所有的应用所获取的权限进行全局设置</string>
+    <string name= "summary62">支持通信权限、启动权限、网络权限、Root权限和推送通知权限</string>
+    <string name= "summary63">点击相应的权限设置后可以对手机上所安装的软件进行权限设置，是否允许获得相关权限</string>
+
+    
+    <string name= "summary71">深度OS全面支持OTA-空中下载技术，可以对系统进行完美升级</string>
+    <string name= "summary72">检查更新后如果有更新提示可以下载更新包进行系统升级</string>
+    
+    <string name= "summary81">快捷上网是深度OS提供的一键上网服务，让您更方便快捷地畅游移动互联网！</string>
+    <string name= "summary82">点击书签上的网址可以一键到达相应的网站，无需再次输入网址</string>
+    <string name= "summary83">自动同步默认浏览器的书签数据</string>
+    <string name= "summary84">输入框可以快速输入网址或百度搜索的关键字，智能判断您输入的文字</string>
+    
+    
+    <string name= "summary91">全面支持主题框架，个性风格随心所欲！</string>
+    <string name= "summary92">点击相应的主题后，可预览主题效果图，喜欢的话就点击“应用主题”吧</string>
+    
+    <string name= "summary101">长按“小房子(Home)”键可以进入任务管理器界面</string>
+    <string name= "summary102">显示当前的内存RAM使用状况，按住程序缩略图左右滑动可以关闭进程，并支持一键清空。</string>
+
 
 </resources>
