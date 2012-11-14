@@ -3,5 +3,5 @@ package com.shendu.userbook;
 public class FuntionInfo {
 	public int id;
 	public String name;
-	public String iconName;
+	public int iconId;
 }

@@ -5,12 +5,15 @@ import java.util.ArrayList;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.content.Context;
+
 import com.shendu.userbook.FuntionInfo;
 import com.shendu.userbook.SummaryInfo;
 
 public class JsonUtill {
 	
-	public static ArrayList<FuntionInfo> getFuntionInfo(String json){
+	public static ArrayList<FuntionInfo> getFuntionInfo(String json , Context context){
 		ArrayList<FuntionInfo> info = new ArrayList<FuntionInfo>();
 		try {
 			JSONArray jsonArray =  new JSONArray(json);
@@ -19,7 +22,9 @@ public class JsonUtill {
 				  JSONObject item = jsonArray.getJSONObject(i);
 				  funtionInfo.id = item.getInt("id");
 				  funtionInfo.name = item.getString("name");
-				  funtionInfo.iconName = item.getString("iconName");
+				  String iconName =  item.getString("iconName");
+				  funtionInfo.iconId = context.getResources().getIdentifier(
+							"com.shendu.userbook:drawable/" + iconName, null, null);
 				  info.add(funtionInfo);
 			 }
 		} catch (JSONException e) {
@@ -30,7 +35,7 @@ public class JsonUtill {
 		
 	}
 	
-	public static ArrayList<SummaryInfo> getSummaryInfo(String json){
+	public static ArrayList<SummaryInfo> getSummaryInfo(String json , Context context){
 		ArrayList<SummaryInfo> info = new ArrayList<SummaryInfo>();
 		try {
 			JSONArray jsonArray =  new JSONArray(json);
@@ -40,7 +45,9 @@ public class JsonUtill {
 				  summaryInfo.contents1 = item.getString("contents1");
 				  summaryInfo.contents2 = item.getString("contents2");
 				  summaryInfo.contents3 = item.getString("contents3");
-				  summaryInfo.imgName = item.getString("imgName");
+				  String imgName  = item.getString("imgName");
+				  summaryInfo.imgId = context.getResources().getIdentifier(
+							"com.shendu.userbook:drawable/" + imgName, null, null);
 				  info.add(summaryInfo);
 			 }
 		} catch (JSONException e) {
