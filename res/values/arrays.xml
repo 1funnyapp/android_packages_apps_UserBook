@@ -27,6 +27,11 @@
         <item>@string/summary13</item>
         <item>@string/summary14</item>
         <item>@string/summary15</item>
+        <item>@string/summary16</item>
+        <item>@string/summary17</item>
+        <item>@string/summary18</item>
+        <item>@string/summary19</item>
+        <item>@string/summary110</item>
     </string-array>
     
     <string-array name="summary_array2" translatable="false">
@@ -35,6 +40,11 @@
         <item>@string/summary23</item>
         <item>@string/summary24</item>
         <item>@string/summary25</item>
+        <item>@string/summary26</item>
+        <item>@string/summary27</item>
+        <item>@string/summary28</item>
+        <item>@string/summary29</item>
+        <item>@string/summary210</item>
     </string-array>
     
     <string-array name="summary_array3" translatable="false">
@@ -43,6 +53,11 @@
         <item>@string/summary33</item>
         <item>@string/summary34</item>
         <item>@string/summary35</item>
+        <item>@string/summary36</item>
+        <item>@string/summary37</item>
+        <item>@string/summary38</item>
+        <item>@string/summary39</item>
+        <item>@string/summary310</item>
     </string-array>
     
     <string-array name="summary_array4" translatable="false">
@@ -51,6 +66,11 @@
         <item>@string/summary43</item>
         <item>@string/summary44</item>
         <item>@string/summary45</item>
+        <item>@string/summary46</item>
+        <item>@string/summary47</item>
+        <item>@string/summary48</item>
+        <item>@string/summary49</item>
+        <item>@string/summary410</item>
     </string-array>
     
     <string-array name="summary_array5" translatable="false">
@@ -59,6 +79,11 @@
         <item>@string/summary53</item>
         <item>@string/summary54</item>
         <item>@string/summary55</item>
+        <item>@string/summary56</item>
+        <item>@string/summary57</item>
+        <item>@string/summary58</item>
+        <item>@string/summary59</item>
+        <item>@string/summary510</item>
     </string-array>
     
     <string-array name="summary_array6" translatable="false">
@@ -67,6 +92,11 @@
         <item>@string/summary63</item>
         <item>@string/summary64</item>
         <item>@string/summary65</item>
+        <item>@string/summary66</item>
+        <item>@string/summary67</item>
+        <item>@string/summary68</item>
+        <item>@string/summary69</item>
+        <item>@string/summary610</item>
     </string-array>
     
     <string-array name="summary_array7" translatable="false">
@@ -75,6 +105,103 @@
         <item>@string/summary73</item>
         <item>@string/summary74</item>
         <item>@string/summary75</item>
+        <item>@string/summary76</item>
+        <item>@string/summary77</item>
+        <item>@string/summary78</item>
+        <item>@string/summary79</item>
+        <item>@string/summary710</item>
     </string-array>
+    
+    <integer-array name="summary_img1" translatable="false">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+        <item>@drawable/img9</item>
+        <item>@drawable/img10</item>
+    </integer-array>
+    
+    <integer-array name="summary_img2" translatable="false">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+        <item>@drawable/img9</item>
+        <item>@drawable/img10</item>
+    </integer-array>
+    
+    <integer-array name="summary_img3" translatable="false">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+        <item>@drawable/img9</item>
+        <item>@drawable/img10</item>
+    </integer-array>
+    
+    <integer-array name="summary_img4" translatable="false">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+        <item>@drawable/img9</item>
+        <item>@drawable/img10</item>
+    </integer-array>
+    
+    <integer-array name="summary_img5" translatable="false">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+        <item>@drawable/img9</item>
+        <item>@drawable/img10</item>
+    </integer-array>
+    
+    <integer-array name="summary_img6" translatable="false">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+        <item>@drawable/img9</item>
+        <item>@drawable/img10</item>
+    </integer-array>
+    
+    <integer-array name="summary_img7" translatable="false">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+        <item>@drawable/img9</item>
+        <item>@drawable/img10</item>
+    </integer-array>
+
 
 </resources>

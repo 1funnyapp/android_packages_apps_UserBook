@@ -43,7 +43,7 @@ public class CreateJsonUtill {
 		String [] data1 = summaryContent1.get(id);
 		String [] data2 = summaryContent1.get(id);
 		String [] data3 = summaryContent1.get(id);
-		Integer[] img = summaryImgId.get(id);
+		int[] img = summaryImgId.get(id);
 		for (int index = 0; index < data1.length; index++) {
 			setSummaryArray(data1[index], data2[index] , data3 [index] , img[index]);
 		}
@@ -86,7 +86,7 @@ public class CreateJsonUtill {
 	private ArrayList<String []> summaryContent1  = new ArrayList<String[]>(); 
 	private ArrayList<String []> summaryContent2  = new ArrayList<String[]>();
 	private ArrayList<String []> summaryContent3  = new ArrayList<String[]>();
-	private ArrayList<Integer []> summaryImgId  = new ArrayList<Integer []>();
+	private ArrayList<int []> summaryImgId  = new ArrayList<int []>();
 
 
 	private void createData(){
@@ -115,21 +115,15 @@ public class CreateJsonUtill {
 		summaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array6));
 		summaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array7));
 		
-		summaryImgId.add(getImgId());
-		summaryImgId.add(getImgId());
-		summaryImgId.add(getImgId());
-		summaryImgId.add(getImgId());
-		summaryImgId.add(getImgId());
-		summaryImgId.add(getImgId());
-		summaryImgId.add(getImgId());
+		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img1));
+		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img2));
+		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img3));
+		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img4));
+		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img5));
+		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img6));
+		summaryImgId.add(mContext.getResources().getIntArray(R.array.summary_img7));
 
-	}
-	
-	private Integer [] getImgId(){
-		Integer [] img = {R.drawable.img1,R.drawable.img2,R.drawable.img3,R.drawable.img4,R.drawable.img5}  ;
-		return img;
-		
-	}
-	
+
+	}	
 	
 }
