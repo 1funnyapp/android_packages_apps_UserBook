@@ -8,15 +8,10 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
-import android.view.View;
-import android.widget.Adapter;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
-public class UserBookActivity extends Activity implements OnItemClickListener {
+public class UserBookActivity extends Activity{
 	MobileFuntionAdapter mFuncAdapter;
 
 	@Override
@@ -25,23 +20,14 @@ public class UserBookActivity extends Activity implements OnItemClickListener {
 		setContentView(R.layout.activity_user_book);
 		GridView gridview = (GridView) findViewById(R.id.user_book_gridview);
 		CreateJsonUtill cju = new CreateJsonUtill(getApplicationContext());
-		mFuncAdapter = new MobileFuntionAdapter(getApplicationContext(),
-				JsonUtill.getFuntionInfo(cju.getFunctionInfo()));
+		mFuncAdapter = new MobileFuntionAdapter(UserBookActivity.this,
+				JsonUtill.getFuntionInfo(cju.getFunctionInfo(),UserBookActivity.this));
 		gridview.setAdapter(mFuncAdapter);
-		gridview.setOnItemClickListener(this);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.activity_quick_start, menu);
 		return true;
-	}
-
-	@Override
-	public void onItemClick(AdapterView<?> arg0, View view, int pos, long id) {
-		Intent intent = new Intent(UserBookActivity.this, SummaryActivity.class);
-		intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-		intent.putExtra("summary_id", (int) mFuncAdapter.getItemId(pos));
-		startActivity(intent);
 	}
 }

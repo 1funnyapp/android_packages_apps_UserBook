@@ -15,16 +15,16 @@
     </string-array>
     
     <string-array name="function_icons" translatable="false">
-        <item>ic_launcher</item>
-        <item>ic_launcher</item>
-        <item>ic_launcher</item>
-        <item>ic_launcher</item>
-        <item>ic_launcher</item>
-        <item>ic_launcher</item>
-        <item>ic_launcher</item>
-        <item>ic_launcher</item>
-        <item>ic_launcher</item>
-        <item>ic_launcher</item>
+        <item>icon_1</item>
+        <item>icon_2</item>
+        <item>icon_3</item>
+        <item>icon_4</item>
+        <item>icon_5</item>
+        <item>icon_6</item>
+        <item>icon_7</item>
+        <item>icon_8</item>
+        <item>icon_9</item>
+        <item>icon_10</item>
     </string-array>
 
     <integer-array name="function_id" translatable="false">

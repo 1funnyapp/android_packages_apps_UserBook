@@ -22,7 +22,7 @@ public class SummaryFragment extends Fragment {
 		TextView tv = (TextView)view.findViewById(R.id.title);
 		tv.setText(mSummaryInfo.contents1);
 		ImageView image = (ImageView)view.findViewById(R.id.summary_image);
-//		image.setImageResource(mSummaryInfo.);
+		image.setImageResource(mSummaryInfo.imgId);
 		return view;
 	}
 	

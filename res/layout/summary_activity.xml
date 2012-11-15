@@ -12,7 +12,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_alignBottom="@id/pager"
 	    android:layout_centerHorizontal="true"
-	    android:paddingBottom="10dp"
+	    android:paddingBottom="20dp"
 	    android:id="@+id/page_cursor">
 	    <ImageView 
 	        android:layout_width="wrap_content"

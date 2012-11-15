@@ -18,6 +18,7 @@ import android.os.Bundle;
 import android.support.v13.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.ImageView;
@@ -92,7 +93,8 @@ public class SummaryActivity extends Activity {
 	// create fragments accord to data
 	private void createFragment(int id) {
 		CreateJsonUtill cju = new CreateJsonUtill(this.getApplicationContext());
-		mSummaryInfos = JsonUtill.getSummaryInfo(cju.getSummaryInfo(id));
+		mSummaryInfos = JsonUtill.getSummaryInfo(cju.getSummaryInfo(id),
+				SummaryActivity.this);
 		for (SummaryInfo s : mSummaryInfos) {
 			mSummaryFragment.add(new SummaryFragment(s));
 		}
@@ -107,16 +109,14 @@ public class SummaryActivity extends Activity {
 			imageCursor = new TextView(this);
 			imageCursor.setWidth(10);
 			imageCursor.setHeight(10);
-			// imageCursor.setBackgroundResource(R.drawable.ic_viewpager_off);
-			imageCursor.setBackgroundColor(Color.BLACK);
+			imageCursor.setBackgroundResource(R.drawable.dot_off);
 			LinearLayout.LayoutParams param = new LinearLayout.LayoutParams(
 					LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 			param.setMargins(5, 0, 5, 0);
 			imageCursor.setLayoutParams(param);
 			imageCursor.setId(i);
 			if (imageCursor.getId() == id) {
-				// imageCursor.setBackgroundResource(R.drawable.ic_viewpager_on);
-				imageCursor.setBackgroundColor(Color.BLUE);
+				imageCursor.setBackgroundResource(R.drawable.dot_on);
 			}
 			mCursorPage.addView(imageCursor);
 		}
@@ -132,8 +132,20 @@ public class SummaryActivity extends Activity {
 	void actionbarAbleUp() {
 		ActionBar actionbar = getActionBar();
 		actionbar.setDisplayOptions(ActionBar.DISPLAY_HOME_AS_UP
-				| ActionBar.DISPLAY_SHOW_HOME);
+				| ActionBar.DISPLAY_SHOW_HOME | ActionBar.DISPLAY_SHOW_CUSTOM);
+		TextView tv = new TextView(this);
+		tv.setText(getIntent().getStringExtra("summary_title"));
+		tv.setTextSize(17);
+		actionbar.setCustomView(tv, new ActionBar.LayoutParams(
+				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+		ActionBar.LayoutParams shendu_tilte_lp = (ActionBar.LayoutParams) tv
+				.getLayoutParams();
+		shendu_tilte_lp.leftMargin = 20;
+		shendu_tilte_lp.gravity = shendu_tilte_lp.gravity
+				& ~Gravity.HORIZONTAL_GRAVITY_MASK | Gravity.LEFT;
+		actionbar.setCustomView(tv, shendu_tilte_lp);
 	}
+
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {

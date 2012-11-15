@@ -17,7 +17,9 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_above="@id/summary_image"
-        android:layout_marginLeft="90dp"
+        android:textSize="17dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:layout_marginTop="20dp"/>
     <TextView
         android:id="@+id/content_one"

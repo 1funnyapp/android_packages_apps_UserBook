@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">快速入门</string>
+    <string name="app_name">用户手册</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_user_book">UserBookActivity</string>
+    <string name="title_activity_user_book">用户手册</string>
     
     <string name= "function1">拨号</string>
     <string name= "function2">创新手势</string>
