@@ -106,70 +106,70 @@
     </string-array>
     
     <string-array name="summary_img1" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
-        <item>img3</item>
-        <item>img4</item>
-        <item>img5</item>
-        <item>img6</item>
+        <item>img1_1</item>
+        <item>img1_2</item>
+        <item>img1_3</item>
+        <item>img1_4</item>
+        <item>img1_5</item>
+        <item>img1_6</item>
     </string-array>
     
     <string-array name="summary_img2" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
-        <item>img3</item>
+        <item>img2_1</item>
+        <item>img2_2</item>
+        <item>img2_3</item>
     </string-array>
     
     <string-array name="summary_img3" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
-        <item>img3</item>
-        <item>img4</item>
+        <item>img3_1</item>
+        <item>img3_2</item>
+        <item>img3_3</item>
+        <item>img3_4</item>
     </string-array>
     
     <string-array name="summary_img4" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
-        <item>img3</item>
+        <item>img4_1</item>
+        <item>img4_2</item>
+        <item>img4_3</item>
     </string-array>
     
     <string-array name="summary_img5" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
-        <item>img3</item>
-        <item>img4</item>
-        <item>img5</item>
-        <item>img6</item>
+        <item>img5_1</item>
+        <item>img5_2</item>
+        <item>img5_3</item>
+        <item>img5_4</item>
+        <item>img5_5</item>
+        <item>img5_6</item>
     </string-array>
     
     <string-array name="summary_img6" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
-        <item>img3</item>
+        <item>img6_1</item>
+        <item>img6_2</item>
+        <item>img6_3</item>
     </string-array>
     
     <string-array name="summary_img7" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
+        <item>img7_1</item>
+        <item>img7_2</item>
     </string-array>
     
     <string-array name="summary_img8" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
-        <item>img3</item>
-        <item>img4</item>
+        <item>img8_1</item>
+        <item>img8_2</item>
+        <item>img8_3</item>
+        <item>img8_4</item>
     </string-array>
     
        
     <string-array name="summary_img9" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
+        <item>img9_1</item>
+        <item>img9_2</item>
     </string-array>
        
           
     <string-array name="summary_img10" translatable="false">
-        <item>img1</item>
-        <item>img2</item>
+        <item>img10_1</item>
+        <item>img10_2</item>
     </string-array>
           
 
