@@ -70,9 +70,9 @@ public class MobileFuntionAdapter extends BaseAdapter {
 		if (position >= mFunctionInfos.size()) {
 			viewHold.funcName.setVisibility(View.GONE);
 			viewHold.appIcon.setVisibility(View.GONE);
-			//viewHold.layout.setVisibility(View.GONE);
-			viewHold.layout.setBackgroundResource(R.drawable.func_item_bg_null);
-			viewHold.layout.setClickable(true);
+			viewHold.layout.setVisibility(View.GONE);
+			//viewHold.layout.setBackgroundResource(R.drawable.func_item_bg_null);
+			//viewHold.layout.setClickable(true);
 		} else {
 			String funcName = mFunctionInfos.get(position).name;
 			viewHold.funcName.setVisibility(View.VISIBLE);

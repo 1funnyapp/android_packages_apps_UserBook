@@ -24,10 +24,4 @@ public class UserBookActivity extends Activity{
 				JsonUtill.getFuntionInfo(cju.getFunctionInfo(),UserBookActivity.this));
 		gridview.setAdapter(mFuncAdapter);
 	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.activity_quick_start, menu);
-		return true;
-	}
 }
