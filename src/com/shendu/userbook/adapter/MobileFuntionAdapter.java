@@ -25,7 +25,7 @@ public class MobileFuntionAdapter extends BaseAdapter {
 	public MobileFuntionAdapter(Context context, List<FuntionInfo> f) {
 		mContext = context;
 		mFunctionInfos = f;
-		mModCount = 3 - mFunctionInfos.size() % 3;
+		mModCount = mFunctionInfos.size() % 3 == 0 ? 0  : 3 - mFunctionInfos.size() % 3;
 	}
 	public View.OnClickListener listener = new View.OnClickListener() {
 		

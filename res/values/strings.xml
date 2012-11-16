@@ -15,7 +15,7 @@
     <string name= "function7">OTA</string>
     <string name= "function8">快捷上网</string>
     <string name= "function9">深度主题</string>
-    <string name= "function10">任务管理器</string>
+<!--     <string name= "function10">任务管理器</string> -->
     
     
     <string name= "summary11">拨打电话时，使用T9拼音缩写或号码快速找到你的联系人</string>
@@ -68,8 +68,8 @@
     <string name= "summary91">全面支持主题框架，个性风格随心所欲！</string>
     <string name= "summary92">点击相应的主题后，可预览主题效果图，喜欢的话就点击“应用主题”吧</string>
     
-    <string name= "summary101">长按“小房子(Home)”键可以进入任务管理器界面</string>
+   <!--  <string name= "summary101">长按“小房子(Home)”键可以进入任务管理器界面</string>
     <string name= "summary102">显示当前的内存RAM使用状况，按住程序缩略图左右滑动可以关闭进程，并支持一键清空。</string>
-
+ -->
 
 </resources>
