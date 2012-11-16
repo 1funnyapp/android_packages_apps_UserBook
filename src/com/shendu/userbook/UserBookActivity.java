@@ -6,6 +6,7 @@ import com.shendu.userbook.json.JsonUtill;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.FragmentManager.OnBackStackChangedListener;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -23,5 +24,19 @@ public class UserBookActivity extends Activity{
 		mFuncAdapter = new MobileFuntionAdapter(UserBookActivity.this,
 				JsonUtill.getFuntionInfo(cju.getFunctionInfo(),UserBookActivity.this));
 		gridview.setAdapter(mFuncAdapter);
+		getFragmentManager().addOnBackStackChangedListener(
+				new OnBackStackChangedListener() {
+					@Override
+					public void onBackStackChanged() {
+						if (getFragmentManager().getBackStackEntryCount() == 0) {
+							ActionBar ab = getActionBar();
+							ab.setDisplayHomeAsUpEnabled(false);
+							ab.setLogo(R.drawable.ic_launcher);
+							ab.setTitle(R.string.app_name);
+							ab.setHomeButtonEnabled(false);
+						}
+
+					}
+				});
 	}
 }

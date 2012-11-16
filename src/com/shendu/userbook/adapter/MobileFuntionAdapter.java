@@ -5,6 +5,7 @@ import java.util.List;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,6 +37,7 @@ public class MobileFuntionAdapter extends BaseAdapter {
 			intent.putExtra("summary_id", (int)mFunctionInfos.get((Integer)v.getTag()).id);
 			intent.putExtra("summary_title", mFunctionInfos.get((Integer)v.getTag()).name);
 			intent.putExtra("summary_icon", (int)mFunctionInfos.get((Integer)v.getTag()).iconId);
+			Log.i("mylog",": id : "+(Integer)v.getTag()+":  "+(int)mFunctionInfos.get((Integer)v.getTag()).iconId);
 			mContext.startActivity(intent);
 		}
 	};

@@ -3,7 +3,7 @@
     <style name="AppTheme" parent="@android:style/Theme.Holo.Light" >
         <item name="android:actionBarStyle">@style/ShenDuTheme.ActionBarStyle</item>
     </style>  
-    <style name="ShenDuTheme.ActionBarStyle" parent="@android:style/Widget.ActionBar">
-        <item name="android:background">@drawable/setting_top_bg</item>
+    <style name="ShenDuTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/userbook_ab_bg</item>
     </style>
 </resources>

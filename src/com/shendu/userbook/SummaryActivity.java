@@ -131,19 +131,10 @@ public class SummaryActivity extends Activity {
 	// actionbar home as up
 	void actionbarAbleUp() {
 		ActionBar actionbar = getActionBar();
-		actionbar.setDisplayOptions(ActionBar.DISPLAY_HOME_AS_UP
-				| ActionBar.DISPLAY_SHOW_HOME | ActionBar.DISPLAY_SHOW_CUSTOM);
-		TextView tv = new TextView(this);
-		tv.setText(getIntent().getStringExtra("summary_title"));
-		tv.setTextSize(17);
-		actionbar.setCustomView(tv, new ActionBar.LayoutParams(
-				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
-		ActionBar.LayoutParams shendu_tilte_lp = (ActionBar.LayoutParams) tv
-				.getLayoutParams();
-		shendu_tilte_lp.leftMargin = 20;
-		shendu_tilte_lp.gravity = shendu_tilte_lp.gravity
-				& ~Gravity.HORIZONTAL_GRAVITY_MASK | Gravity.LEFT;
-		actionbar.setCustomView(tv, shendu_tilte_lp);
+		actionbar.setDisplayUseLogoEnabled(true);
+		actionbar.setDisplayHomeAsUpEnabled(true);
+		actionbar.setLogo(getIntent().getIntExtra("summary_icon",-1));
+		actionbar.setTitle(getIntent().getStringExtra("summary_title"));
 	}
 
 	@Override
