@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+	 <dimen name="summary_image_width">250dp</dimen>
+	 <dimen name="summary_image_height">385dp</dimen>
+    <dimen name="summary_fragment_text_size">19dp</dimen>
+    <dimen name="summary_fragment_text_top">25dip</dimen>
+	<dimen name="summary_fragment_text_bottom">20dip</dimen>
+</resources>

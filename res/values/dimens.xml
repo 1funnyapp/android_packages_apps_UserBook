@@ -5,4 +5,7 @@
     <dimen name="padding_large">16dp</dimen>
 	<dimen name="summary_image_width">200dp</dimen>
 	<dimen name="summary_image_height">335dp</dimen>
+	<dimen name="summary_fragment_text_size">16dip</dimen>
+	<dimen name="summary_fragment_text_top">15dip</dimen>
+	<dimen name="summary_fragment_text_bottom">10dip</dimen>
 </resources>

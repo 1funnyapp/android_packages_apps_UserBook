@@ -10,11 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left|center"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginBottom="@dimen/summary_fragment_text_bottom"
+        android:layout_marginTop="@dimen/summary_fragment_text_top"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:textSize="16dp" />
+        android:textSize="@dimen/summary_fragment_text_size" />
 
     <ImageView
         android:id="@+id/summary_image"
