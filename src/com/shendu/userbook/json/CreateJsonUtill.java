@@ -103,7 +103,7 @@ public class CreateJsonUtill {
 		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array7));
 		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array8));
 		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array9));
-	/*	mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array10));*/
+		mSummaryContent1.add(mContext.getResources().getStringArray(R.array.summary_array10));
 		
 		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array1));
 		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array2));
@@ -114,7 +114,7 @@ public class CreateJsonUtill {
 		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array7));
 		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array8));
 		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array9));
-		/*mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array10));*/
+		mSummaryContent2.add(mContext.getResources().getStringArray(R.array.summary_array10));
 		
 		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array1));
 		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array2));
@@ -125,7 +125,7 @@ public class CreateJsonUtill {
 		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array7));
 		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array8));
 		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array9));
-	/*	mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array10));*/
+		mSummaryContent3.add(mContext.getResources().getStringArray(R.array.summary_array10));
 		
 		mSummaryImgName.add(mContext.getResources().getStringArray(R.array.summary_img1));
 		mSummaryImgName.add(mContext.getResources().getStringArray(R.array.summary_img2));
@@ -136,7 +136,7 @@ public class CreateJsonUtill {
 		mSummaryImgName.add(mContext.getResources().getStringArray(R.array.summary_img7));
 		mSummaryImgName.add(mContext.getResources().getStringArray(R.array.summary_img8));
 		mSummaryImgName.add(mContext.getResources().getStringArray(R.array.summary_img9));
-	/*	mSummaryImgName.add(mContext.getResources().getStringArray(R.array.summary_img10));*/
+		mSummaryImgName.add(mContext.getResources().getStringArray(R.array.summary_img10));
 
 
 	}	

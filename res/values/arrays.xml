@@ -11,7 +11,7 @@
         <item>@string/function7</item>
         <item>@string/function8</item>
         <item>@string/function9</item>
-<!--         <item>@string/function10</item> -->
+        <item>@string/function10</item>
     </string-array>
     
     <string-array name="function_icons" translatable="false">
@@ -24,7 +24,7 @@
         <item>icon_7</item>
         <item>icon_8</item>
         <item>icon_9</item>
-<!--         <item>icon_10</item> -->
+        <item>icon_10</item>
     </string-array>
 
     <integer-array name="function_id" translatable="false">
@@ -37,7 +37,7 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
-<!--         <item>9</item> -->
+        <item>9</item>
     </integer-array>
 
     <string-array name="summary_array1" translatable="false">
@@ -53,6 +53,7 @@
         <item>@string/summary21</item>
         <item>@string/summary22</item>
         <item>@string/summary23</item>
+        <item>@string/summary24</item>
     </string-array>
     
     <string-array name="summary_array3" translatable="false">
@@ -66,6 +67,8 @@
         <item>@string/summary41</item>
         <item>@string/summary42</item>
         <item>@string/summary43</item>
+        <item>@string/summary44</item>
+        <item>@string/summary45</item>
     </string-array>
     
     <string-array name="summary_array5" translatable="false">
@@ -86,6 +89,7 @@
     <string-array name="summary_array7" translatable="false">
         <item>@string/summary71</item>
         <item>@string/summary72</item>
+        <item>@string/summary73</item>
     </string-array>
     
     <string-array name="summary_array8" translatable="false">
@@ -100,10 +104,14 @@
         <item>@string/summary92</item>
     </string-array>
     
-    <!-- <string-array name="summary_array10" translatable="false">
+    <string-array name="summary_array10" translatable="false">
         <item>@string/summary101</item>
         <item>@string/summary102</item>
-    </string-array> -->
+        <item>@string/summary103</item>
+        <item>@string/summary104</item>
+        <item>@string/summary105</item>
+        <item>@string/summary106</item>
+    </string-array>
     
     <string-array name="summary_img1" translatable="false">
         <item>img1_1</item>
@@ -118,6 +126,7 @@
         <item>img2_1</item>
         <item>img2_2</item>
         <item>img2_3</item>
+        <item>img2_4</item>
     </string-array>
     
     <string-array name="summary_img3" translatable="false">
@@ -131,6 +140,8 @@
         <item>img4_1</item>
         <item>img4_2</item>
         <item>img4_3</item>
+        <item>img4_4</item>
+        <item>img4_5</item>
     </string-array>
     
     <string-array name="summary_img5" translatable="false">
@@ -151,6 +162,7 @@
     <string-array name="summary_img7" translatable="false">
         <item>img7_1</item>
         <item>img7_2</item>
+        <item>img7_3</item>
     </string-array>
     
     <string-array name="summary_img8" translatable="false">
@@ -160,18 +172,18 @@
         <item>img8_4</item>
     </string-array>
     
-       
     <string-array name="summary_img9" translatable="false">
         <item>img9_1</item>
         <item>img9_2</item>
     </string-array>
-       
-          
-<!--     <string-array name="summary_img10" translatable="false">
+         
+    <string-array name="summary_img10" translatable="false">
         <item>img10_1</item>
         <item>img10_2</item>
-    </string-array> -->
+        <item>img10_3</item>
+        <item>img10_4</item>
+        <item>img10_5</item>
+        <item>img10_6</item>
+    </string-array>
           
-
-
 </resources>

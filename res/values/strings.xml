@@ -15,12 +15,12 @@
     <string name= "function7">OTA</string>
     <string name= "function8">快捷上网</string>
     <string name= "function9">深度主题</string>
-<!--     <string name= "function10">任务管理器</string> -->
+    <string name= "function10">访客模式</string>
     
     
     <string name= "summary11">拨打电话时，使用T9拼音缩写或号码快速找到你的联系人</string>
     <string name= "summary12">输入号码后，可以立即看到对方号码的归属地</string>
-    <string name= "summary13">更方便快捷的新建联系人或添加到“联系人”</string>
+    <string name= "summary13">更方便快捷的新建联系人</string>
     <string name= "summary14">点击通讯录图标后迅速跳转到通讯录联系人界面</string>
     <string name= "summary15">通话中可以点击键盘图标显示数字键盘</string>
     <string name= "summary16">通话记录的列表里支持长按操作，可以选择删除通话记录或者发送短信</string>
@@ -29,7 +29,7 @@
     <string name= "summary21">手指在桌面上由上向下滑动可直接打开通知栏，无需下拉状态栏</string>
     <string name= "summary22">通知栏中由下向上滑动手势可直接关闭通知栏</string>
     <string name= "summary23">手指在桌面上由下向上滑动可直接进入桌面编辑模式</string>
-    
+    <string name= "summary24">手指在桌面上由上向下退出编辑模式</string>
     
     <string name= "summary31">新建短信时，支持显示最常用的联系人和最近联系人</string>
     <string name= "summary32">收信人输入框可以通过号码和联系人名字拼音搜索人名并支持批量增加联系人。</string>
@@ -40,6 +40,8 @@
     <string name= "summary41">未设置头像的好友增加默认字母头像，更加直观。</string>
     <string name= "summary42">快速找到你的好友可以点击收藏图标哦。</string>
     <string name= "summary43">联系人视图列表支持长按操作，可快捷编辑、删除联系或分享给其他好友</string>
+    <string name= "summary44">快速搜索更方便快捷从众多联系人中找到好友</string>
+    <string name= "summary45">快速搜索键盘，只显示存在通讯录中好友姓氏的开头字母</string>
 
     
     
@@ -58,6 +60,7 @@
     
     <string name= "summary71">深度OS全面支持OTA-空中下载技术，可以对系统进行完美升级</string>
     <string name= "summary72">检查更新后如果有更新提示可以下载更新包进行系统升级</string>
+    <string name= "summary73">选择安装包和重启到recovery能够帮您更快捷更新手机</string>
     
     <string name= "summary81">快捷上网是深度OS提供的一键上网服务，让您更方便快捷地畅游移动互联网！</string>
     <string name= "summary82">点击书签上的网址可以一键到达相应的网站，无需再次输入网址</string>
@@ -68,8 +71,11 @@
     <string name= "summary91">全面支持主题框架，个性风格随心所欲！</string>
     <string name= "summary92">点击相应的主题后，可预览主题效果图，喜欢的话就点击“应用主题”吧</string>
     
-   <!--  <string name= "summary101">长按“小房子(Home)”键可以进入任务管理器界面</string>
-    <string name= "summary102">显示当前的内存RAM使用状况，按住程序缩略图左右滑动可以关闭进程，并支持一键清空。</string>
- -->
+    <string name= "summary101">设置访客模式可以对手机隐私保密</string>
+    <string name= "summary102">亲！必须开启才能使用哦</string>
+    <string name= "summary103">访客模式中有两种解锁方式供选择</string>
+    <string name= "summary104">手动设置的解锁方式确认后可通过更改密码修改</string>
+    <string name= "summary105">从应用程序控制中设置禁止访问的程序</string>
+    <string name= "summary106">进入勾选后的程序需输入密码访问</string>
 
 </resources>
